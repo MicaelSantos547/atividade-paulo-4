@@ -1,0 +1,19 @@
+algoritmo "Primeiro Programa"
+
+var
+  base, ex, resultado: inteiro
+
+inicio
+
+  
+  escreval("calculo de exponenciação: ")
+  escreva("digite a base: ")
+  leia(base)
+  escreval("digite o expoente:")
+  leia(ex)
+  
+  resultado <- base ^ ex
+
+  escreva("o resultado é: ",resultado)
+
+fimalgoritmo
