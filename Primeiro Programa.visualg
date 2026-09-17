@@ -1,0 +1,24 @@
+algoritmo "Primeiro Programa"
+
+var
+  quantidade, a: inteiro
+  numero, soma, media: real
+
+inicio
+
+  escreva("Quantos números serão calculados: ")
+  leia(quantidade)
+  
+  para a de 1 ate quantidade faca
+  escreva("digite " a " numero: ")
+  leia(numero)
+
+  soma <- soma + numero
+  fimpara
+
+  media <- soma / quantidade
+  escreval("soma dos numeros ", soma)
+  escreval("quantidade de numeros:", quantidade)
+  escreval("média:", media)
+
+fimalgoritmo

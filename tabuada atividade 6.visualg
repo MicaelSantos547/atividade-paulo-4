@@ -1,0 +1,28 @@
+algoritmo "tabuada atividade 6"
+
+var
+  numero, contador, resultado: inteiro
+  comeco: caractere
+
+inicio
+  escreval("digite S ou N iniciar o programa tabuada ou encerrar o programa")
+  leia(comeco)
+  
+  se (comeco = "S" ou "s") entao 
+   escreval("Digite o número que deseja calcular a tabuada: ")
+  fimse
+
+  se(comeco = "N" ou "n") entao 
+  escreva("programa encerrado")
+  fimse
+
+  leia(numero)
+  contador <- 1
+
+  para contador de 1 ate 10 faca
+    resultado <- contador * numero
+    escreval(numero, "x", contador, " = ", resultado)
+    contador <- contador + 1
+  fimpara
+
+fimalgoritmo

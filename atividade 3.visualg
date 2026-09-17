@@ -1,0 +1,19 @@
+algoritmo "media"
+
+var
+  n1, n2, media: real
+
+
+inicio
+
+  escreval("Digite o primeiro número: ")
+  leia(n1)
+
+  escreval("Digite o segundo número: ")
+  leia(n2)
+
+  media <- (n1 + n2) / 2
+
+  escreva("A média entre os dois números é: ", media)
+
+fimalgoritmo
